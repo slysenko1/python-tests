@@ -9,7 +9,7 @@ pipeline {
         stage('Unit Test') {
             steps {
                 sh 'echo Unit Tests'
-                withPythonEnv('python3') {
+                withPythonEnv('/usr/bin/python3') {
                     sh 'python -V'
                 }
             }
