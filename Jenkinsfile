@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Prepare') {
             steps {
+                sh 'echo "Preparation"'
             }
         }
         stage('Unit Test') {
