@@ -3,7 +3,6 @@ pipeline {
     stages {
         stage('Prepare') {
             steps {
-
             }
         }
         stage('Unit Test') {
