@@ -1,5 +1,5 @@
 pipeline {
-    agents any
+    agent any
     stages {
         stage('Prepare') {
             steps {
@@ -12,7 +12,6 @@ pipeline {
                 withPythonEnv('python3') {
                     sh 'python -V'
                 }
-
             }
         }
 
